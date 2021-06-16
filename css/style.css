@@ -1,0 +1,264 @@
+html {
+  background-color: #fff;
+}
+
+body {
+  width: 100%;
+  max-width: 1269px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #e5e5e5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 75px 0 75px 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.left {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  max-width: 540px;
+  max-height: 470px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#428A60), to(#35734F));
+  background: -webkit-linear-gradient(top, #428A60 0%, #35734F 100%);
+  background: -o-linear-gradient(top, #428A60 0%, #35734F 100%);
+  background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
+  -webkit-box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.left__title {
+  padding-top: 28px;
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+.img__outer {
+  width: 398px;
+  height: 398px;
+  background: #428A60;
+  border-radius: 50%;
+  position: relative;
+  top: -5px;
+}
+
+.left__img {
+  position: absolute;
+  left: 37px;
+  bottom: 2px;
+  z-index: 1;
+}
+
+.left__subtitle {
+  position: absolute;
+  bottom: -12px;
+  left: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.right {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  max-width: 560px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+}
+
+.right__title {
+  padding-top: 29px;
+  margin: 0;
+  padding-bottom: 29px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  color: #212121;
+  background: #F8F8F8;
+}
+
+.right__form {
+  padding-left: 117px;
+  padding-top: 52px;
+}
+
+.label {
+  display: block;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.label span {
+  color: #428A60;
+}
+
+.input {
+  width: 314px;
+  height: 47px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  padding-left: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #212121;
+  opacity: 0.2;
+}
+
+.input:-ms-input-placeholder {
+  padding-left: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #212121;
+  opacity: 0.2;
+}
+
+.input::-ms-input-placeholder {
+  padding-left: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #212121;
+  opacity: 0.2;
+}
+
+.input::placeholder {
+  padding-left: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  color: #212121;
+  opacity: 0.2;
+}
+
+.input:focus {
+  border: 1px solid #428A60;
+}
+
+.input-phone {
+  width: 178px;
+  margin-right: 16px;
+}
+
+.select-wrapper {
+  display: inline-block;
+  position: relative;
+  width: 114px;
+  margin-bottom: 39px;
+}
+
+.select {
+  width: 116px;
+  height: 50px;
+  padding: 0 20px 0 19px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #212121;
+  background: url(../assets/images/flag-ru.png) no-repeat center right 37px;
+  background-color: #F8F8F8;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px;
+  appearance: none;
+  /* remove arrow        */
+  -webkit-appearance: none;
+  /* remove arrow Chrome */
+  -moz-appearance: none;
+  /* remove arrow FF     */
+  cursor: pointer;
+  outline: 0;
+}
+
+.select-arrow {
+  position: absolute;
+  border: 6px solid transparent;
+  border-bottom: 0;
+  right: 17px;
+  cursor: pointer;
+}
+
+.select-arrow:nth-child(1) {
+  top: 23px;
+  border-top-color: #212121;
+}
+
+.select-arrow:nth-child(2) {
+  top: 20px;
+  border-top-color: #FFF;
+}
+
+.select:focus {
+  border: 1px solid #428A60;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  width: 320px;
+  padding: 11px 0;
+  padding-right: 27px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 5px;
+  background-color: #428A60;
+  border: none;
+  cursor: pointer;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 29%;
+  right: 33%;
+  width: 35px;
+  height: 15px;
+  z-index: 1;
+  background: url("../assets/images/arrow.png") no-repeat center;
+}
