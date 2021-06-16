@@ -38,11 +38,22 @@ body {
   min-height: 470px;
   padding-bottom: 30px;
   padding-left: 20px;
+  position: relative;
   
   background: linear-gradient(180deg, #428A60 0%, #35734F 100%);
   box-shadow: 0px 24px 80px rgba(0, 0, 0, 0.1);
   border-radius: 1px;
   overflow: hidden;
+}
+
+.left::before {
+    content: "";
+    width: 688px;
+    height: 688px;
+    top: -74px;
+    left: 238px;
+    position: absolute;
+    background: url(../assets/images/big-circle.svg);
 }
 
 .left__title {
