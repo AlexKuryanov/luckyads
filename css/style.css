@@ -40,7 +40,7 @@ body {
       flex-basis: 50%;
   max-width: 540px;
   min-height: 470px;
-  padding-bottom: 30px;
+  padding-bottom: 26px;
   padding-left: 20px;
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(#428A60), to(#35734F));
@@ -213,7 +213,7 @@ body {
 .select-wrapper {
   display: inline-block;
   position: relative;
-  width: 114px;
+  width: 116px;
   margin-bottom: 39px;
 }
 
@@ -228,7 +228,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #212121;
-  background: url(../assets/images/flag-ru.png) no-repeat center right 37px;
+  background: url(../assets/images/flag-ru.png) no-repeat center right 35px;
   background-color: #F8F8F8;
   border: 1px solid #E4E4E4;
   border-radius: 5px;
@@ -326,17 +326,25 @@ body {
 }
 
 @media (max-width: 575px) {
+  html {
+    background-color: #e5e5e5;
+  }
+  body {
+    background-color: #f8f8f8;
+  }
   .container {
     background-color: #fff;
     max-width: 300px;
     padding: 10px 0;
   }
   .left {
-    background: none;
+    background: #fff;
     width: 100%;
     min-height: 234px;
     margin: 0 auto;
     padding: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
   .img__outer {
     max-width: 202px;
@@ -361,11 +369,13 @@ body {
     color: #212121;
   }
   .right {
-    margin-bottom: 25px;
+    padding-bottom: 28px;
+    background-color: #fff;
   }
   .right__title {
     padding-top: 33px;
     padding-left: 18px;
+    background-color: #fff;
   }
   .right__title-span {
     display: inline;
@@ -415,12 +425,12 @@ body {
   }
   .footer {
     width: 180px;
-    margin: 0 auto;
+    height: 30px;
     display: block;
-    background: #F8F8F8;
   }
   .footer__text {
     width: 56px;
+    padding-top: 11px;
   }
   .footer__text:first-child {
     padding-left: 19px;
