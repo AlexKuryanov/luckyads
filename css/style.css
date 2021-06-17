@@ -260,7 +260,7 @@ body {
   border-top-color: #fff;
 }
 
-.select:focus {
+.select-arrow:focus {
   border: 1px solid #428a60;
 }
 
@@ -434,11 +434,11 @@ body {
   .footer__text:first-child {
     padding-left: 19px;
   }
+  .footer__text:last-child {
+    padding-left: 11px;
+  }
   .footer__img {
     display: inline-block;
     padding-left: 15px;
-  }
-  .footer__text:last-child {
-    padding-left: 11px;
   }
 }
